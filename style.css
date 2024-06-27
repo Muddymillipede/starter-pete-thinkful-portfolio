@@ -76,3 +76,28 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.group-horizontal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-vertical{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.wrapper{
+  flex-wrap: nowrap;
+}
+
+.item-1{
+  order: 1;
+}
+
+.item-2{
+  order: 2;
+}
