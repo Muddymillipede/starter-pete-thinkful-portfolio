@@ -77,27 +77,30 @@ hr {
   border: 1px solid black;
 }
 
+/* This class aligns both header, about and portfolio sections in rows */
 .group-horizontal{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/*This class makes the about section divide into columns*/
 .group-vertical{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  text-align: left;
 }
 
-.wrapper{
-  flex-wrap: nowrap;
+/*This class changes the alignment to baseline since center would not align the headers nor the 
+pictures how it is asked, also changes the gap*/
+.align-portfolio{
+  align-items: baseline;
+  gap: 50px;
 }
 
-.item-1{
-  order: 1;
-}
-
-.item-2{
-  order: 2;
+/*This class changes the font size of the pictures descriptions*/
+.description-size
+{
+  font-size: 14px;
 }
